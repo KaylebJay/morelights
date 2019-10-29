@@ -2,9 +2,9 @@
 
 local brass_ingot_name
 
-if minetest.get_modpath("basic_materials") then
+if minetest.get_modpath("technic") then
   -- Use basic materials brass ingot
-  brass_ingot_name = "basic_materials:brass_ingot"
+  brass_ingot_name = "technic:brass_ingot"
 else
   -- Register and use morelights brass ingot
   minetest.register_craftitem("morelights_vintage:brass_ingot", {
